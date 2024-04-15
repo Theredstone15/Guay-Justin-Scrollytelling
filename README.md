@@ -5,3 +5,6 @@
 ## Conception
 1. Justin Guay
 2. William Beauvais
+
+## Développement / Programmation
+Justin Guay
