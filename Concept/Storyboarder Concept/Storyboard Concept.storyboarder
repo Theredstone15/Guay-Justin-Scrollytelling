@@ -1,0 +1,210 @@
+{
+  "version": "2.1.0",
+  "aspectRatio": "1",
+  "fps": 24,
+  "defaultBoardTiming": 2000,
+  "boards": [
+    {
+      "uid": "AG5LT",
+      "url": "board-1-AG5LT.png",
+      "newShot": false,
+      "lastEdited": 1711304626817,
+      "layers": {
+        "reference": {
+          "url": "board-1-AG5LT-reference.png",
+          "opacity": 0.75
+        },
+        "notes": {
+          "url": "board-1-AG5LT-notes.png"
+        },
+        "shot-generator": {
+          "url": "board-1-AG5LT-shot-generator.png",
+          "opacity": 0.75
+        },
+        "fill": {
+          "url": "board-1-AG5LT-fill.png"
+        },
+        "tone": {
+          "url": "board-1-AG5LT-tone.png"
+        },
+        "pencil": {
+          "url": "board-1-AG5LT-pencil.png"
+        },
+        "ink": {
+          "url": "board-1-AG5LT-ink.png"
+        }
+      },
+      "number": 1,
+      "shot": "1A",
+      "time": 0,
+      "notes": "On voit la forêt qui apparaît",
+      "action": "La forêt se forme en plusieurs couches qui partent du haut pour se mettre à leur place",
+      "lineMileage": 29402.411843785416
+    },
+    {
+      "uid": "N4X0L",
+      "url": "board-2-N4X0L.png",
+      "newShot": false,
+      "lastEdited": 1711304972929,
+      "layers": {
+        "notes": {
+          "url": "board-2-N4X0L-notes.png"
+        },
+        "reference": {
+          "url": "board-2-N4X0L-reference.png",
+          "opacity": 0.75
+        },
+        "pencil": {
+          "url": "board-2-N4X0L-pencil.png"
+        },
+        "shot-generator": {
+          "url": "board-2-N4X0L-shot-generator.png",
+          "opacity": 0.75
+        },
+        "fill": {
+          "url": "board-2-N4X0L-fill.png"
+        },
+        "tone": {
+          "url": "board-2-N4X0L-tone.png"
+        },
+        "ink": {
+          "url": "board-2-N4X0L-ink.png"
+        }
+      },
+      "number": 2,
+      "shot": "2A",
+      "time": 2000,
+      "notes": "On voit l’oiseau qui vole à travers la forêt",
+      "action": "L’oiseau suit une trajectoire non linéaire",
+      "lineMileage": 26017.56422785401
+    },
+    {
+      "uid": "ZAVWN",
+      "url": "board-3-ZAVWN.png",
+      "newShot": false,
+      "lastEdited": 1711305003634,
+      "layers": {
+        "shot-generator": {
+          "url": "board-3-ZAVWN-shot-generator.png",
+          "opacity": 0.75
+        },
+        "reference": {
+          "url": "board-3-ZAVWN-reference.png",
+          "opacity": 0.75
+        },
+        "fill": {
+          "url": "board-3-ZAVWN-fill.png"
+        },
+        "tone": {
+          "url": "board-3-ZAVWN-tone.png"
+        },
+        "pencil": {
+          "url": "board-3-ZAVWN-pencil.png"
+        },
+        "ink": {
+          "url": "board-3-ZAVWN-ink.png"
+        },
+        "notes": {
+          "url": "board-3-ZAVWN-notes.png"
+        }
+      },
+      "number": 3,
+      "shot": "3A",
+      "time": 4000,
+      "notes": "On voit l’oiseau qui tombe",
+      "action": "En défilant vers le bas, l’oiseau est en train de tomber pendant que l'arrière plan va vers le haut mais plus lentement pour l’effet de parallaxe",
+      "lineMileage": 14573.522384518044
+    },
+    {
+      "uid": "CB0TO",
+      "url": "board-4-CB0TO.png",
+      "newShot": false,
+      "lastEdited": 1711305018828,
+      "layers": {
+        "notes": {
+          "url": "board-4-CB0TO-notes.png"
+        }
+      },
+      "number": 4,
+      "shot": "4A",
+      "time": 6000,
+      "action": "La scène est statique, mais le texte est animé et arrive de la gauche",
+      "notes": "On voit le loup à côté de l’oiseau",
+      "lineMileage": 9232.138025712713
+    },
+    {
+      "uid": "U4I5X",
+      "url": "board-5-U4I5X.png",
+      "newShot": false,
+      "lastEdited": 1711305043478,
+      "layers": {
+        "shot-generator": {
+          "url": "board-5-U4I5X-shot-generator.png",
+          "opacity": 0.75
+        },
+        "reference": {
+          "url": "board-5-U4I5X-reference.png",
+          "opacity": 0.75
+        },
+        "fill": {
+          "url": "board-5-U4I5X-fill.png"
+        },
+        "tone": {
+          "url": "board-5-U4I5X-tone.png"
+        },
+        "pencil": {
+          "url": "board-5-U4I5X-pencil.png"
+        },
+        "ink": {
+          "url": "board-5-U4I5X-ink.png"
+        },
+        "notes": {
+          "url": "board-5-U4I5X-notes.png"
+        }
+      },
+      "number": 5,
+      "shot": "5A",
+      "time": 8000,
+      "notes": "On voit les deux autres animaux qui arrivent",
+      "action": "Les deux animaux arrivent de la gauche et de la droite vers le centre",
+      "lineMileage": 18348.03424815734
+    },
+    {
+      "uid": "848OT",
+      "url": "board-6-848OT.png",
+      "newShot": false,
+      "lastEdited": 1711305051890,
+      "layers": {
+        "notes": {
+          "url": "board-6-848OT-notes.png"
+        },
+        "shot-generator": {
+          "url": "board-6-848OT-shot-generator.png",
+          "opacity": 0.75
+        },
+        "reference": {
+          "url": "board-6-848OT-reference.png",
+          "opacity": 0.75
+        },
+        "fill": {
+          "url": "board-6-848OT-fill.png"
+        },
+        "tone": {
+          "url": "board-6-848OT-tone.png"
+        },
+        "pencil": {
+          "url": "board-6-848OT-pencil.png"
+        },
+        "ink": {
+          "url": "board-6-848OT-ink.png"
+        }
+      },
+      "number": 6,
+      "shot": "6A",
+      "time": 10000,
+      "notes": "On voit les animaux qui marchent ensemble dans la forêt",
+      "action": "Les trois animaux marchent avec un mouvement de haut/bas qui alterne tandis que le fond va vers la gauche",
+      "lineMileage": 20156.181186306905
+    }
+  ]
+}
