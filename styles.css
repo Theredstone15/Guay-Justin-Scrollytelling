@@ -20,6 +20,11 @@ src: url(Assets/fonts/Bubbly\ Font.ttf);
 body{
     overflow-x: hidden;
     margin: 0;
+    --DarkGreen: #36453b;
+    --DimGray: #596869;
+    --Ebony: #515751;
+    --Ivory: #F5F9E9;
+    --Sage: #C2C1A5;
 }
 
 header{
@@ -40,6 +45,7 @@ header h1{
     position: relative;
     font-family: Bubbly;
     font-size: 4vw;
+    color: var(--Sage);
 }
 
 header h2{
@@ -50,6 +56,7 @@ header h2{
     position: relative;
     font-family: Bubbly;
     font-size: 2vw;
+    color: var(--Sage);
 }
 
 header svg{
@@ -64,23 +71,184 @@ header svg{
 /*-----------------------------------------------
  Chapitre 1
  ------------------------------------------------ */
+#Chap1{
+    background-image: url(Assets/img_arriere_plan/01_fond.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
 
+#Chap1 h2{
+    position: relative;
+    width: 54vw;
+    font-family: SuperSunday;
+    text-align: center;
+    margin: auto;
+    top: 20%;
+    font-size: 2vw;
+    z-index: 1;
+    color: var(--DarkGreen);
+}
+
+#Chap1 #ArbreBas{
+    position: absolute;
+    width: 100vw;
+    bottom: 0%;
+    z-index: 2;
+}
+
+#Chap1 #ArbreHaut{
+    position: absolute;
+    top: 32%;
+    z-index: 1;
+    width: 110vw;
+}
+
+#Chap1 #Lac{
+    position: absolute;
+    width: 100vw;
+    bottom: 10%;
+    right: -10%;
+    height: 20vh;
+    z-index: 0;
+}
  /*-----------------------------------------------
  Chapitre 2
  ------------------------------------------------ */
+
+#Chap2{
+    background-image: url(Assets/img_arriere_plan/02_fond.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 105vh;
+    width: 100vw;
+    position: relative;
+}
+
+#Chap2 h2{
+    position: relative;
+    width: 54vw;
+    font-family: SuperSunday;
+    text-align: center;
+    margin: auto;
+    top: 20%;
+    font-size: 2vw;
+    z-index: 1;
+}
+
 
  /*-----------------------------------------------
  Chapitre 3
  ------------------------------------------------ */
 
+ #Chap3{
+    background-image: url(Assets/img_arriere_plan/03_fond.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 240vh;
+    width: 130vw;
+    position: relative;
+ }
+
+ #Chap3 h2{
+    position: absolute;
+    width: 54vw;
+    font-family: SuperSunday;
+    text-align: center;
+    left: 17%;
+    top: 10%;
+    font-size: 2vw;
+    z-index: 1;
+ }
+
+ #Chap3 #Oiseau{
+    position: absolute;
+    height: 20vh;
+    left: 34%;
+    top: 30%;
+ }
+
  /*-----------------------------------------------
  Chapitre 4
  ------------------------------------------------ */
 
+ #Chap4{
+    background-image: url(Assets/img_arriere_plan/04_scene.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 105vh;
+    width: 100vw;
+    position: relative;
+ }
+
+ #Chap4 h2{
+    position: relative;
+    width: 54vw;
+    font-family: SuperSunday;
+    text-align: center;
+    margin: auto;
+    top: 20%;
+    font-size: 2vw;
+    z-index: 1;
+ }
+
  /*-----------------------------------------------
  Chapitre 5
  ------------------------------------------------ */
+ #Chap5{
+    background-image: url(Assets/img_arriere_plan/05_fond.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 105vh;
+    width: 100vw;
+    position: relative;
+ }
 
+ #Chap5 h2{
+    position: relative;
+    width: 54vw;
+    font-family: SuperSunday;
+    text-align: center;
+    margin: auto;
+    top: 20%;
+    font-size: 2vw;
+ }
+  
+ #Cerf{
+    position: absolute;
+    height: 40vh;
+    bottom: 3%;
+    left: 20%;
+ }
+
+ #Lapin{
+    position: absolute;
+    height: 20vh;
+    bottom: 3%;
+    right: 30%;
+    z-index: 1;
+ }
  /*-----------------------------------------------
  Chapitre 6
  ------------------------------------------------ */
+
+ #Chap6{
+    background-image: url(Assets/img_arriere_plan/06_fond.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 105vh;
+    width: 100vw;
+    position: relative;
+ }
+
+ #Chap6 h2{
+    position: relative;
+    width: 54vw;
+    font-family: SuperSunday;
+    text-align: center;
+    margin: auto;
+    top: 20%;
+    font-size: 2vw;
+ }
