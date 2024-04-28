@@ -67,7 +67,32 @@ header svg{
     left: 46%;
 }
 
+footer{
+    width: 100vw;
+    height: 10vh;
+    background-color: var(--DimGray)
+}
 
+footer h1:first-of-type{
+    position: absolute;
+    color: var(--Ivory);
+    width: 42vw;
+    font-size: 20px;
+    left: 0%;
+    padding: 15px;
+    font-family: Bubbly;
+}
+
+footer h1:last-of-type{
+    position: absolute;
+    color: var(--Ivory);
+    width: 42vw;
+    font-size: 20px;
+    text-align: right;
+    right: 0%;
+    padding: 15px;
+    font-family: Bubbly;
+}
 /*-----------------------------------------------
  Chapitre 1
  ------------------------------------------------ */
@@ -119,7 +144,7 @@ header svg{
  ------------------------------------------------ */
 
 #Chap2{
-    background-image: url(Assets/img_arriere_plan/02_fond.svg);
+    background-image: url(Assets/img_arriere_plan/02_fond.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 105vh;
@@ -136,6 +161,13 @@ header svg{
     top: 20%;
     font-size: 2vw;
     z-index: 1;
+}
+
+#Chap2 #Oiseau{
+   height: 10vh;
+   position: absolute;
+   top: 40%;
+   left: 70%;
 }
 
 
@@ -216,14 +248,14 @@ header svg{
     font-size: 2vw;
  }
   
- #Cerf{
+ #Chap5 #Cerf{
     position: absolute;
     height: 40vh;
     bottom: 3%;
     left: 20%;
  }
 
- #Lapin{
+ #Chap5 #Lapin{
     position: absolute;
     height: 20vh;
     bottom: 3%;
@@ -235,7 +267,7 @@ header svg{
  ------------------------------------------------ */
 
  #Chap6{
-    background-image: url(Assets/img_arriere_plan/06_fond.svg);
+    background-image: url(Assets/img_arriere_plan/06_fond.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 105vh;
@@ -251,4 +283,109 @@ header svg{
     margin: auto;
     top: 20%;
     font-size: 2vw;
+    z-index: 1;
+ }
+
+ #Chap6 #Loup{
+    position: absolute;
+    height: 40vh;
+    bottom: 3%;
+    left: 40%;
+    z-index: 2;
+ }
+
+ #Chap6 #Cerf{
+    position: absolute;
+    height: 50vh;
+    bottom: 1%;
+    left: 20%;
+    z-index: 2;
+ }
+
+ #Chap6 #Lapin{
+    position: absolute;
+    height: 30vh;
+    bottom: 3%;
+    left: 60%;
+    z-index: 2;
+ }
+
+ #Chap6 #Nuage1{
+    position: absolute;
+    height: 15vh;
+    right: -20%;
+    top: 7%;
+    z-index: 0;
+ }
+
+ #Chap6 #Nuage2{
+    position: absolute;
+    height: 15vh;
+    top: 15%;
+    right: -20%;
+    z-index: 0;
+ }
+
+ #Chap6 #Nuage3{
+    position: absolute;
+    height: 15vh;
+    top: 25%;
+    right: -20%;
+    z-index: 0;
+ }
+
+ #Chap6 #Nuage4{
+    position: absolute;
+    height: 15vh;
+    top: 8%;
+    right: -20%;
+    z-index: 0;
+ }
+
+ #Chap6 #Nuage5{
+    position: absolute;
+    height: 15vh;
+    top: 23%;
+    right:-20%;
+    z-index: 0;
+ }
+
+ #Chap6 #Arbre1{
+    position: absolute;
+    height: 40vh;
+    top: 30%;
+    right: -20%;
+    z-index: 1;
+ }
+
+ #Chap6 #Arbre2{
+    position: absolute;
+    height: 40vh;
+    top: 45%;
+    right: -20%;
+    z-index: 1;
+ }
+
+ #Chap6 #Arbre3{
+    position: absolute;
+    height: 40vh;
+    top: 32%;
+    right: -20%;
+    z-index: 1;
+ }
+
+ #Chap6 #Arbre4{
+    position: absolute;
+    height: 40vh;
+    top: 41%;
+    right: -20%;
+    z-index: 1;
+ }
+
+ #Chap6 #Arbre5{
+    position: absolute;
+    height: 40vh;
+    top: 35%;
+    right: -20%;
+    z-index: 1;
  }
