@@ -50,8 +50,8 @@ nuages.to(".Nuage3",{x: "-1000%",ease: "none", duration: "6"}, "-=2");
 nuages.to(".Nuage5",{x: "-1000%",ease: "none", duration: "8"}, "-=2");
 
 var arbres = gsap.timeline({repeat: -1});
-arbres.to(".Arbre1",{x: "-1650%",ease: "none", duration: "5"});
-arbres.to(".Arbre2",{x: "-1650%",ease: "none", duration: "5"}, "-=2");
-arbres.to(".Arbre3",{x: "-1650%",ease: "none", duration: "5"}, "-=2");
-arbres.to(".Arbre4",{x: "-1650%",ease: "none", duration: "5"}, "-=2");
-arbres.to(".Arbre5",{x: "-1650%",ease: "none", duration: "5"}, "-=2");
+arbres.to(".Arbre1",{x: "-2000%",ease: "none", duration: "5"});
+arbres.to(".Arbre2",{x: "-2000%",ease: "none", duration: "5"}, "-=2");
+arbres.to(".Arbre3",{x: "-2000%",ease: "none", duration: "5"}, "-=2");
+arbres.to(".Arbre4",{x: "-2000%",ease: "none", duration: "5"}, "-=2");
+arbres.to(".Arbre5",{x: "-2000%",ease: "none", duration: "5"}, "-=2");
