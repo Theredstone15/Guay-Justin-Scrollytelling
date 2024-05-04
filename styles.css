@@ -93,6 +93,41 @@ footer h1:last-of-type{
     padding: 15px;
     font-family: Bubbly;
 }
+
+/*-----------------------------------------------
+ Transition 0-1
+ ------------------------------------------------ */
+#Transition0-1{
+   background-image: url(Assets/img_arriere_plan/01_fond.svg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100vh;
+   width: 100vw;
+   position: relative;
+}
+
+#Transition0-1 #TitreTransi0{
+   position: relative;
+   width: 54vw;
+   font-family: SuperSunday;
+   text-align: center;
+   margin: auto;
+   top: 30%;
+   font-size: 2vw;
+   z-index: 1;
+   color: var(--DarkGreen);
+}
+
+#Transition0-1 #troisarbres0{
+   position: absolute;
+   top: 0%;
+   z-index: 1;
+   height: 120vh;
+   width: 80vw;
+   left: -80%;
+}
+
+
 /*-----------------------------------------------
  Chapitre 1
  ------------------------------------------------ */
@@ -213,7 +248,35 @@ footer h1:last-of-type{
  /*-----------------------------------------------
  Transition 3-4
  ------------------------------------------------ */
+ #Transition3-4{
+   background-image: url(Assets/img_arriere_plan/01_fond.svg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100vh;
+   width: 100vw;
+   position: relative;
+}
 
+#Transition3-4 #TitreTransi4{
+   position: relative;
+   width: 54vw;
+   font-family: SuperSunday;
+   text-align: center;
+   margin: auto;
+   top: 30%;
+   font-size: 2vw;
+   z-index: 1;
+   color: var(--DarkGreen);
+}
+
+#Transition3-4 #troisarbres4{
+   position: absolute;
+   top: 0%;
+   z-index: 1;
+   height: 120vh;
+   width: 80vw;
+   left: -80%;
+}
  /*-----------------------------------------------
  Chapitre 4
  ------------------------------------------------ */

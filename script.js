@@ -11,19 +11,65 @@ animmenu.to(".Soustitre", {x:"1%", ease:"power1.inOut"}, "<");
 animmenu.to(".Titre", {x:"0%", ease:"power1.inOut"});
 animmenu.to(".Soustitre", {x:"0%", ease:"power1.inOut"}, "<");
 
+/* --------------------------  Transition 0 - 1 (complet) ---------------------------*/
+
+gsap.to(".arbrestransi0", {
+    x: "300%",
+    ease: "none",
+    duration: 5,
+    scrollTrigger:{
+      pin: true,
+      scrub: true,
+      markers: true,
+      start: "top",
+      end: "bottom -80%",
+      trigger: "#Transition0-1",
+    }
+  })
+
 /* --------------------------  Chapitre 1  ---------------------------*/
+
+gsap.from("#ArbreBas", {
+  y: "100%",
+  ease: "power1.out",
+  scrollTrigger:{
+    pin: true,
+    scrub: true,
+    markers: true,
+    start: "top",
+    end: "bottom -50%",
+    trigger: "#Chap1",
+  }
+})
+
+gsap.from("#ArbreHaut", {
+  y: "-200%",
+  opacity: 0,
+  ease: "power1.out",
+  scrollTrigger:{
+    scrub: true,
+    markers: true,
+    start: "top",
+    end: "bottom -50%",
+    trigger: "#Chap1",
+  }
+})
+
+gsap.from("#Lac", {
+  x: "200%",
+  ease: "power1.out",
+  scrollTrigger:{
+    scrub: true,
+    markers: true,
+    start: "top",
+    end: "bottom -50%",
+    trigger: "#Chap1",
+  }
+})
 
 /* --------------------------  Transition 1 - 2  ---------------------------*/
 
 /* --------------------------  Chapitre 2  ---------------------------*/
-
-var animvole = gsap.timeline({repeat: -1});
-animvole.to(".OiseauChap2", {x:"-900%", y:"90%", ease: "power1.inOut", duration: "2"});
-animvole.to(".OiseauChap2", {x:"-400%", y:"-60%", ease: "power1.inOut", duration: "2"});
-animvole.to(".OiseauChap2", {x:"300%", y:"150%", ease: "power1.inOut", duration: "2"});
-animvole.to(".OiseauChap2", {x:"-1000%", y:"300%", ease: "power1.inOut", duration: "2"});
-animvole.to(".OiseauChap2", {x:"-500%", y:"-300%", ease: "power1.inOut", duration: "2"});
-animvole.to(".OiseauChap2", {x:"0%", y:"0%", ease: "power1.inOut", duration: "2"});
 
 /* --------------------------  Transition 2 - 3  ---------------------------*/
 
@@ -33,6 +79,20 @@ gsap.to(".OiseauChap3",{rotation: 360, repeat: -1, ease: "none"});
 
 /* --------------------------  Transition 3 - 4  ---------------------------*/
 
+gsap.to(".arbrestransi4", {
+  x: "300%",
+  ease: "none",
+  duration: 5,
+  scrollTrigger:{
+    pin: true,
+    scrub: true,
+    markers: true,
+    start: "top",
+    end: "bottom -80%",
+    trigger: "#Transition3-4",
+  }
+})
+
 /* --------------------------  Chapitre 4  ---------------------------*/
 
 /* --------------------------  Transition 4 - 5  ---------------------------*/
@@ -41,7 +101,7 @@ gsap.to(".OiseauChap3",{rotation: 360, repeat: -1, ease: "none"});
 
 /* --------------------------  Transition 5 - 6  ---------------------------*/
 
-/* --------------------------  Chapitre 6  ---------------------------*/
+/* --------------------------  Chapitre 6 (Complet) ---------------------------*/
 
 var animmarche = gsap.timeline({repeat: -1});
 animmarche.to(".CerfChap6", {y:"-5%", ease:"power1.inOut"});
