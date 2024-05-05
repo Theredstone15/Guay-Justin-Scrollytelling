@@ -1,3 +1,5 @@
+gsap.registerPlugin(MotionPathPlugin);
+
 /* --------------------------  Page titre  ---------------------------*/
 gsap.to(".ligne",{y:"60%", yoyo: true, repeat: -1, ease:"power1.inOut"});
 
@@ -71,6 +73,25 @@ gsap.from("#Lac", {
 
 /* --------------------------  Chapitre 2  ---------------------------*/
 
+gsap.to(".OiseauChap2", {
+  motionPath: {
+    path:".PathOiseau",
+    align: ".PathOiseau",
+    autoRotate: true,
+    start: 0,
+    end: 0,
+    alignOrigin: [0.5,1],
+  },
+  scrollTrigger:{
+    pin: true,
+    scrub: true,
+    markers: true,
+    start: "top",
+    end: "bottom",
+    trigger: "#Chap2",
+  },
+});
+
 /* --------------------------  Transition 2 - 3  ---------------------------*/
 
 /* --------------------------  Chapitre 3  ---------------------------*/
@@ -98,6 +119,22 @@ gsap.to(".arbrestransi4", {
 /* --------------------------  Transition 4 - 5  ---------------------------*/
 
 /* --------------------------  Chapitre 5  ---------------------------*/
+
+var animAmis = gsap.timeline({
+  scrollTrigger:{
+    pin: true,
+    scrub: true,
+    markers: true,
+    start: "top",
+    end: "bottom -80%",
+    trigger: "#Chap5",
+  },
+});
+
+animAmis.from(".CerfChap5",{x:"-350%", ease: "none"});
+animAmis.from(".LapinChap5",{x:"750%", ease: "none"}, "<");
+animAmis.to(".CerfChap5",{x:"50%", y:"20%", ease: "power1.out"});
+animAmis.to(".LapinChap5",{x:"-50%", y:"20%", ease: "power1.out"}, "<");
 
 /* --------------------------  Transition 5 - 6  ---------------------------*/
 
