@@ -292,6 +292,7 @@ footer h1:last-of-type{
     height: 105vh;
     width: 100vw;
     position: relative;
+    color: var(--Ivory);
  }
 
  #Chap4 h2{
@@ -319,6 +320,7 @@ footer h1:last-of-type{
     height: 105vh;
     width: 100vw;
     position: relative;
+    color: var(--Ivory);
  }
 
  #Chap5 h2{

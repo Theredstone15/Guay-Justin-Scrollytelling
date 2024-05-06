@@ -1,4 +1,5 @@
 gsap.registerPlugin(MotionPathPlugin);
+gsap.registerPlugin(TextPlugin);
 
 /* --------------------------  Page titre  ---------------------------*/
 gsap.to(".ligne",{y:"60%", yoyo: true, repeat: -1, ease:"power1.inOut"});
@@ -18,11 +19,9 @@ animmenu.to(".Soustitre", {x:"0%", ease:"power1.inOut"}, "<");
 gsap.to(".arbrestransi0", {
     x: "300%",
     ease: "none",
-    duration: 5,
     scrollTrigger:{
       pin: true,
       scrub: true,
-      markers: true,
       start: "top",
       end: "bottom -80%",
       trigger: "#Transition0-1",
@@ -37,7 +36,6 @@ gsap.from("#ArbreBas", {
   scrollTrigger:{
     pin: true,
     scrub: true,
-    markers: true,
     start: "top",
     end: "bottom -50%",
     trigger: "#Chap1",
@@ -50,7 +48,6 @@ gsap.from("#ArbreHaut", {
   ease: "power1.out",
   scrollTrigger:{
     scrub: true,
-    markers: true,
     start: "top",
     end: "bottom -50%",
     trigger: "#Chap1",
@@ -62,7 +59,6 @@ gsap.from("#Lac", {
   ease: "power1.out",
   scrollTrigger:{
     scrub: true,
-    markers: true,
     start: "top",
     end: "bottom -50%",
     trigger: "#Chap1",
@@ -85,7 +81,6 @@ gsap.to(".OiseauChap2", {
   scrollTrigger:{
     pin: true,
     scrub: true,
-    markers: true,
     start: "top",
     end: "bottom",
     trigger: "#Chap2",
@@ -107,7 +102,6 @@ gsap.to(".arbrestransi4", {
   scrollTrigger:{
     pin: true,
     scrub: true,
-    markers: true,
     start: "top",
     end: "bottom -80%",
     trigger: "#Transition3-4",
@@ -115,6 +109,18 @@ gsap.to(".arbrestransi4", {
 })
 
 /* --------------------------  Chapitre 4  ---------------------------*/
+
+gsap.to("#texteanime", {
+  text: "Monsieur le loup m'a apercu",
+  ease: "none",
+  scrollTrigger:{
+    pin: true,
+    scrub: true,
+    start: "top",
+    end: "bottom -80%",
+    trigger: "#Chap4",
+  }
+});
 
 /* --------------------------  Transition 4 - 5  ---------------------------*/
 
@@ -124,7 +130,6 @@ var animAmis = gsap.timeline({
   scrollTrigger:{
     pin: true,
     scrub: true,
-    markers: true,
     start: "top",
     end: "bottom -80%",
     trigger: "#Chap5",
@@ -147,6 +152,7 @@ animmarche.to(".LoupChap6", {y:"0%", ease:"power1.inOut"}, "<");
 animmarche.to(".LoupChap6", {y:"-5%", ease:"power1.inOut"});
 animmarche.to(".CerfChap6", {y:"0%", ease:"power1.inOut"}, "<");
 animmarche.to(".LapinChap6", {y:"0%", ease:"power1.inOut"}, "<");
+
 animmarche.to(".LoupChap6", {y:"0%", ease:"power1.inOut"});
 
 var nuages = gsap.timeline({repeat: -1});
