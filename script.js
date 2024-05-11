@@ -1,5 +1,10 @@
-gsap.registerPlugin(MotionPathPlugin);
-gsap.registerPlugin(TextPlugin);
+gsap.registerPlugin(MotionPathPlugin, TextPlugin, DrawSVGPlugin);
+gsap.set("#ligne1-1",{drawSVG:"0% 100%"});
+gsap.set("#ligne2-1",{drawSVG:"0% 100%"});
+gsap.set("#ligne3-1",{drawSVG:"0% 100%"});
+gsap.set("#ligne1-2",{drawSVG:"0% 100%"});
+gsap.set("#ligne2-2",{drawSVG:"0% 100%"});
+gsap.set("#ligne3-2",{drawSVG:"0% 100%"});
 
 /* --------------------------  Page titre  ---------------------------*/
 gsap.to(".ligne",{y:"60%", yoyo: true, repeat: -1, ease:"power1.inOut"});
@@ -67,7 +72,36 @@ gsap.from("#Lac", {
 
 /* --------------------------  Transition 1 - 2  ---------------------------*/
 
+gsap.from("#ligne1-1", {
+  drawSVG: "0% 0%",
+  scrollTrigger:{
+    pin: true,
+    scrub: true,
+    start: "top",
+    end: "bottom",
+    trigger: "#Transition1-2",
+  }
+})
 
+gsap.from("#ligne2-1", {
+  drawSVG: "0% 0%",
+  scrollTrigger:{
+    scrub: true,
+    start: "top",
+    end: "bottom",
+    trigger: "#Transition1-2",
+  }
+})
+
+gsap.from("#ligne3-1", {
+  drawSVG: "0% 0%",
+  scrollTrigger:{
+    scrub: true,
+    start: "top",
+    end: "bottom",
+    trigger: "#Transition1-2",
+  }
+})
 
 /* --------------------------  Chapitre 2  ---------------------------*/
 
@@ -78,7 +112,7 @@ gsap.to(".OiseauChap2", {
     autoRotate: true,
     start: 1,
     end: 0,
-    alignOrigin: [0.5,1],
+    alignOrigin: [0,0],
   },
   scrollTrigger:{
     pin: true,
@@ -127,6 +161,37 @@ gsap.to("#texteanime", {
 });
 
 /* --------------------------  Transition 4 - 5  ---------------------------*/
+
+gsap.from("#ligne1-2", {
+  drawSVG: "0% 0%",
+  scrollTrigger:{
+    pin: true,
+    scrub: true,
+    start: "top",
+    end: "bottom",
+    trigger: "#Transition4-5",
+  }
+})
+
+gsap.from("#ligne2-2", {
+  drawSVG: "0% 0%",
+  scrollTrigger:{
+    scrub: true,
+    start: "top",
+    end: "bottom",
+    trigger: "#Transition4-5",
+  }
+})
+
+gsap.from("#ligne3-2", {
+  drawSVG: "0% 0%",
+  scrollTrigger:{
+    scrub: true,
+    start: "top",
+    end: "bottom",
+    trigger: "#Transition4-5",
+  }
+})
 
 /* --------------------------  Chapitre 5  ---------------------------*/
 
