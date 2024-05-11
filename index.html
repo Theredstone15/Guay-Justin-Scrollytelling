@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,27 +11,55 @@
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/MotionPathPlugin.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/TextPlugin.min.js"></script>
     <link rel="stylesheet" href="styles.css">
-    
+
 </head>
+
 <body>
     <header>
+        <ul class="technique-gsap">
+            <li>Timeline</li>
+            <li>gsap to</li>
+            <li>yoyo</li>
+        </ul>
         <h1 class="Titre">Le loup et l'oiseau</h1>
         <h2 class="Soustitre">Une aventure créée par Justin Guay et William Beauvais</h2>
-        <svg fill="#000000" width="100px" height="100px" viewBox="0 0 36 36" version="1.1"  preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <svg fill="#000000" width="100px" height="100px" viewBox="0 0 36 36" version="1.1"
+            preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink">
             <title>mouse-line</title>
-            <path class="contours" d="M18,34A10,10,0,0,1,8,24V12a10,10,0,0,1,20,0V24A10,10,0,0,1,18,34ZM18,4a8,8,0,0,0-8,8V24a8,8,0,0,0,16,0V12A8,8,0,0,0,18,4Z"></path><path class="ligne" d="M18,15a1,1,0,0,1-1-1V10a1,1,0,0,1,2,0v4A1,1,0,0,1,18,15Z"></path>
-            <rect x="0" y="0" width="36" height="36" fill-opacity="0"/>
+            <path class="contours"
+                d="M18,34A10,10,0,0,1,8,24V12a10,10,0,0,1,20,0V24A10,10,0,0,1,18,34ZM18,4a8,8,0,0,0-8,8V24a8,8,0,0,0,16,0V12A8,8,0,0,0,18,4Z">
+            </path>
+            <path class="ligne" d="M18,15a1,1,0,0,1-1-1V10a1,1,0,0,1,2,0v4A1,1,0,0,1,18,15Z"></path>
+            <rect x="0" y="0" width="36" height="36" fill-opacity="0" />
         </svg>
     </header>
     <main>
         <div id="Transition0-1">
-            <h1 id="TitreTransi0">Chapitre 1</h1>
+            <ul class="technique-gsap">
+                <li>gsap to</li>
+                <li>scrollTrigger</li>
+                    <ul>
+                        <li>trigger = Transition0-1</li>
+                    </ul>
+                </li>
+            </ul>
+            <h1 id="TitreTransi0">Chapitre Un</h1>
             <img id="troisarbres0" class="arbrestransi0" src="Assets/img_elements_visuels/PNG/3arbres.png">
-        
+
         </div>
 
         <div id="Chap1">
-        <!-- ---------- Début Chapitre 1 ------------------ -->
+            <!-- ---------- Début Chapitre 1 ------------------ -->
+            <ul class="technique-gsap">
+                <li>3X gsap from</li>
+                <li>Animation en couches</li>
+                <li>ScrollTrigger</li>
+                    <ul>
+                        <li>trigger = Chap1</li>
+                    </ul>
+                </li>
+            </ul>
             <h2>Il y avait une grande forêt qui s’étendait à perte de vue</h2>
             <img id="ArbreBas" src="Assets/img_elements_visuels/PNG/01_arbre_bas.png">
             <img id="ArbreHaut" src="Assets/img_elements_visuels/PNG/01_arbre_haut.png">
@@ -39,92 +68,218 @@
         </div>
 
         <div id="Transition1-2">
+            <ul class="technique-gsap">
+                <li>DrawSVG</li>
+                <li>Dessin du vent</li>
+                <li>scrollTrigger
+                    <ul>
+                        <li>trigger = Transition1-2</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <h1 id="TitreTransi1">Chapitre Deux</h1>
+            <svg id="Vent" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 758.21 603.31">
+                <defs>
+                    <style>
+                        .b {
+                            fill: none;
+                            stroke: #fff;
+                            stroke-linecap: round;
+                            stroke-miterlimit: 10;
+                            stroke-width: 10px;
+                        }
+                    </style>
+                </defs>
+                <path id="ligne3-1" class="b"
+                    d="M9.29,487.35l550.96,101s130.24,26.25,171.92-6.44c41.68-32.69,20.56-106.45-55.73-125.47-76.28-19.02-112.12,7.3-112.12,7.3" />
+                <path id="ligne2-1" class="b"
+                    d="M5,381.59l546.96-5.29s129.74,1.08,163.65-38.92c33.91-40,0-108.42-76.66-112.63s-106.15,28.42-106.15,28.42" />
+                <path id="ligne1" class="b"
+                    d="M5,244.4l556.38-77.26s132.27-16.01,161.68-60.15c29.41-44.13-13.9-107.53-92.52-101.61-78.62,5.92-104.46,42.16-104.46,42.16" />
+            </svg>
 
         </div>
-
-        <div id="Chap2">
         <!-- ---------- Début Chapitre 2 ------------------ -->
+        <div id="Chap2">
+            <ul class="technique-gsap">
+                <li>Trajectoire non linéaire</li>
+                <li>MotionPath</li>
+                <li>scrollTrigger
+                    <ul>
+                        <li>trigger = Chap2</li>
+                    </ul>
+                </li>
+            </ul>
             <h2>Je volais, je volais et je volais</h2>
             <img id="Oiseau" class="OiseauChap2" src="Assets/img_personnages/SVG/02_oiseau.svg">
             <svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1033.05 362.85">
                 <defs>
-                  <style>
-                    .cls-1 {
-                      fill: none;
-                      stroke: #fff;
-                      stroke-miterlimit: 10;
-                      stroke-width: 10px;
-                    }
-                  </style>
+                    <style>
+                        .cls-1 {
+                            fill: none;
+                            stroke: #fff;
+                            stroke-miterlimit: 10;
+                            stroke-width: 10px;
+                        }
+                    </style>
                 </defs>
-                <path class="PathOiseau" d="m811.65,25.24c-180.4-96.32-263.67,182.45-402.28,180.25S236.1,83.03,134.18,97.81c-101.92,14.78-198.54,202.62-60.95,183.77,137.59-18.86,119.75,96.71,210.77,73.07,212.71-55.24,11.42-411.45,148.3-297.1,418.19,349.36,876.17,232.94,379.35-32.3Z"/>
-              </svg>
+                <path class="PathOiseau"
+                    d="m811.65,25.24c-180.4-96.32-263.67,182.45-402.28,180.25S236.1,83.03,134.18,97.81c-101.92,14.78-198.54,202.62-60.95,183.77,137.59-18.86,119.75,96.71,210.77,73.07,212.71-55.24,11.42-411.45,148.3-297.1,418.19,349.36,876.17,232.94,379.35-32.3Z" />
+            </svg>
+        </div>
         <!-- ---------- Fin Chapitre 2 -------------------- -->
-        </div>
-
-        <div id="Transition2-3">
-
-        </div>
-
-        <div id="Chap3">
-        <!-- ---------- Début Chapitre 3 ------------------ -->
-        <h2>Jusqu’à ce que je ne vole plus</h2>
-        <img id="Oiseau" class="OiseauChap3" src="Assets/img_personnages/SVG/03_oiseau.svg">
-        <!-- ---------- Fin Chapitre 3 -------------------- -->
-        </div>
-
-        <div id="Transition3-4">
-            <h1 id="TitreTransi4">Chapitre 4</h1>
-            <img id="troisarbres4" class="arbrestransi4" src="Assets/img_elements_visuels/PNG/3arbres.png">
         
-        </div>
+        <div id="Transition2-3">
+            <ul class="technique-gsap">
+            <li>Morphing</li>
+            <li>scrollTrigger
+                <ul>
+                    <li>trigger = Transition2-3</li>
+                </ul>
+            </li>
+        </ul>
+            <h1 id="TitreTransi2">Chapitre Trois</h1>
 
-        <div id="Chap4">
+        </div>
+        <!-- ---------- Début Chapitre 3 ------------------ -->
+        <div id="Chap3">
+            <ul class="technique-gsap">
+                <li>Parallaxe</li>
+                <li>Gsap to</li>
+                <li>scrollTrigger
+                    <ul>
+                        <li>trigger = Chap3</li>
+                    </ul>
+                </li>
+            </ul>
+            <h2>Jusqu’à ce que je ne vole plus</h2>
+            <img id="Oiseau" class="OiseauChap3" src="Assets/img_personnages/SVG/03_oiseau.svg">
+
+        </div>
+        <!-- ---------- Fin Chapitre 3 -------------------- -->
+        <div id="Transition3-4">
+            <ul class="technique-gsap">
+                <li>gsap to</li>
+                <li>scrollTrigger</li>
+                    <ul>
+                        <li>trigger = Transition3-4</li>
+                    </ul>
+                </li>
+            </ul>
+            <h1 id="TitreTransi3">Chapitre Quatre</h1>
+            <img id="troisarbres4" class="arbrestransi3" src="Assets/img_elements_visuels/PNG/3arbres.png">
+
+        </div>
         <!-- ---------- Début Chapitre 4 ------------------ -->
-        <h2 id="texteanime"></h2>
+        <div id="Chap4">
+            <ul class="technique-gsap">
+                <li>Animation de texte</li>
+                <li>TextPlugin</li>
+                <li>scrollTrigger
+                    <ul>
+                        <li>trigger = Chap4</li>
+                    </ul>
+                </li>
+            </ul>
+            <h2 id="texteanime"></h2>
+
+        </div>
         <!-- ---------- Fin Chapitre 4 -------------------- -->
-        </div>
-
         <div id="Transition4-5">
+            <ul class="technique-gsap">
+                <li>DrawSVG</li>
+                <li>Dessin du vent</li>
+                <li>scrollTrigger
+                    <ul>
+                        <li>trigger = Transition4-5</li>
+                    </ul>
+                </li>
+            </ul>
 
+            <h1 id="TitreTransi4">Chapitre Cinq</h1>
+            <svg id="Vent" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 758.21 603.31">
+                <defs>
+                    <style>
+                        .b {
+                            fill: none;
+                            stroke: #fff;
+                            stroke-linecap: round;
+                            stroke-miterlimit: 10;
+                            stroke-width: 10px;
+                        }
+                    </style>
+                </defs>
+                <path id="ligne3-2" class="b"
+                    d="M9.29,487.35l550.96,101s130.24,26.25,171.92-6.44c41.68-32.69,20.56-106.45-55.73-125.47-76.28-19.02-112.12,7.3-112.12,7.3" />
+                <path id="ligne2-2" class="b"
+                    d="M5,381.59l546.96-5.29s129.74,1.08,163.65-38.92c33.91-40,0-108.42-76.66-112.63s-106.15,28.42-106.15,28.42" />
+                <path id="ligne1-2" class="b"
+                    d="M5,244.4l556.38-77.26s132.27-16.01,161.68-60.15c29.41-44.13-13.9-107.53-92.52-101.61-78.62,5.92-104.46,42.16-104.46,42.16" />
+            </svg>
         </div>
-
-        <div id="Chap5">
         <!-- ---------- Début Chapitre 5 ------------------ -->
-        <h2>Et si vite ses amis sont-ils venus</h2>
-        <img id="Cerf" class="CerfChap5" src="Assets/img_personnages/SVG/05_cerf.svg">
-        <img id="Lapin" class="LapinChap5" src="Assets/img_personnages/PNG/05_lapin.png">
+        <div id="Chap5">
+            <ul class="technique-gsap">
+                <li>Timeline</li>
+                <li>scrollTrigger
+                    <ul>
+                        <li>trigger = Chap5</li>
+                    </ul>
+                </li>
+            </ul>
+            <h2>Et si vite ses amis sont-ils venus</h2>
+            <img id="Cerf" class="CerfChap5" src="Assets/img_personnages/SVG/05_cerf.svg">
+            <img id="Lapin" class="LapinChap5" src="Assets/img_personnages/PNG/05_lapin.png">
+
+        </div>
         <!-- ---------- Fin Chapitre 5 -------------------- -->
-        </div>
-
         <div id="Transition5-6">
-
+            <ul class="technique-gsap">
+                <li>Morphing</li>
+                <li>scrollTrigger
+                    <ul>
+                        <li>trigger = Transition5-6</li>
+                    </ul>
+                </li>
+            </ul>
+            <h1 id="TitreTransi5">Chapitre Six</h1>
         </div>
-
-        <div id="Chap6">
         <!-- ---------- Début Chapitre 6 ------------------ -->
-        <h2>Ensemble nous irons aussi loin que possible</h2>
-        <img id="Cerf" class="CerfChap6" src="Assets/img_personnages/SVG/05_cerf.svg">
-        <img id="Lapin" class="LapinChap6" src="Assets/img_personnages/PNG/05_lapin.png">
-        <img id="Loup" class="LoupChap6" src="Assets/img_personnages/PNG/06_Loup.png"> 
-        <img id="Nuage1" class="Nuage1" src="Assets/img_elements_visuels/PNG/06_nuage1.png">
-        <img id="Nuage2" class="Nuage2" src="Assets/img_elements_visuels/PNG/06_nuage2.png">
-        <img id="Nuage3" class="Nuage3" src="Assets/img_elements_visuels/PNG/06_nuage1.png">
-        <img id="Nuage4" class="Nuage4" src="Assets/img_elements_visuels/PNG/06_nuage2.png">
-        <img id="Nuage5" class="Nuage5" src="Assets/img_elements_visuels/PNG/06_nuage1.png">
-        <img id="Arbre1" class="Arbre1" src="Assets/img_elements_visuels/PNG/06_arbre.png">
-        <img id="Arbre2" class="Arbre2" src="Assets/img_elements_visuels/PNG/06_arbre.png">
-        <img id="Arbre3" class="Arbre3" src="Assets/img_elements_visuels/PNG/06_arbre.png">
-        <img id="Arbre4" class="Arbre4" src="Assets/img_elements_visuels/PNG/06_arbre.png">
-        <img id="Arbre5" class="Arbre5" src="Assets/img_elements_visuels/PNG/06_arbre.png">
-        <!-- ---------- Fin Chapitre 6 -------------------- -->
+        <div id="Chap6">
+            <ul class="technique-gsap">
+                <li>Animation infinie</li>
+                <li>Timeline</li>
+                <li>scrollTrigger
+                    <ul>
+                        <li>trigger = Chap6</li>
+                    </ul>
+                </li>
+            </ul>
+            <h2>Ensemble nous irons aussi loin que possible</h2>
+            <img id="Cerf" class="CerfChap6" src="Assets/img_personnages/SVG/05_cerf.svg">
+            <img id="Lapin" class="LapinChap6" src="Assets/img_personnages/PNG/05_lapin.png">
+            <img id="Loup" class="LoupChap6" src="Assets/img_personnages/PNG/06_Loup.png">
+            <img id="Nuage1" class="Nuage1" src="Assets/img_elements_visuels/PNG/06_nuage1.png">
+            <img id="Nuage2" class="Nuage2" src="Assets/img_elements_visuels/PNG/06_nuage2.png">
+            <img id="Nuage3" class="Nuage3" src="Assets/img_elements_visuels/PNG/06_nuage1.png">
+            <img id="Nuage4" class="Nuage4" src="Assets/img_elements_visuels/PNG/06_nuage2.png">
+            <img id="Nuage5" class="Nuage5" src="Assets/img_elements_visuels/PNG/06_nuage1.png">
+            <img id="Arbre1" class="Arbre1" src="Assets/img_elements_visuels/PNG/06_arbre.png">
+            <img id="Arbre2" class="Arbre2" src="Assets/img_elements_visuels/PNG/06_arbre.png">
+            <img id="Arbre3" class="Arbre3" src="Assets/img_elements_visuels/PNG/06_arbre.png">
+            <img id="Arbre4" class="Arbre4" src="Assets/img_elements_visuels/PNG/06_arbre.png">
+            <img id="Arbre5" class="Arbre5" src="Assets/img_elements_visuels/PNG/06_arbre.png">
+            <!-- ---------- Fin Chapitre 6 -------------------- -->
         </div>
 
         <footer>
-            <h1>Projet scrollytelling créé dans le cadre du cours Optimisation Web - Intégration multimédia - Collège Montmorency</h1>
+            <h1>Projet scrollytelling créé dans le cadre du cours Optimisation Web - Intégration multimédia - Collège
+                Montmorency</h1>
             <h1>© 2024 - Conception : Justin Guay et William Beauvais | Développement Web : Justin Guay.</h1>
         </footer>
     </main>
     <script src="script.js"></script>
 </body>
+
 </html>

@@ -8,6 +8,27 @@ src: url(Assets/fonts/Bubbly\ Font.ttf);
     src: url(Assets/fonts/Super\ Sunday.ttf);
 }
 
+ul.technique-gsap{
+   background: rgba(0,0,0,0.3);
+   color: white;
+   font-size: 10px;
+   font-family: monospace;
+   font-weight: 400;
+   width: auto;
+   display: inline-block;
+   padding: 10px 20px 12px 20px;
+   margin: 0;
+   max-width: 300px;
+   position: absolute;
+   z-index: 1000;
+   top: 0;
+   left: 0;
+}
+
+ul.technique-gsap li{
+   margin: 5px 0;
+}
+
 /*-----------------------------------------------
  Styles Généraux
  ------------------------------------------------ */
@@ -179,6 +200,36 @@ footer h1:last-of-type{
  Transition 1-2
  ------------------------------------------------ */
 
+#Transition1-2{
+   background-image: url(Assets/img_arriere_plan/Noir.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100vh;
+   width: 100vw;
+   position: relative;
+}
+
+#Transition1-2 #TitreTransi1{
+   position: relative;
+   width: 54vw;
+   font-family: SuperSunday;
+   text-align: center;
+   margin: auto;
+   top: 30%;
+   font-size: 2vw;
+   z-index: 1;
+   color: var(--Ivory);
+}
+
+#Transition1-2 #Vent{
+   position: relative;
+   width: 25vw;
+   margin: auto;
+   top: 35%;
+   left: 37%;
+   z-index: 0;
+}
+
  /*-----------------------------------------------
  Chapitre 2
  ------------------------------------------------ */
@@ -217,6 +268,27 @@ footer h1:last-of-type{
 /*-----------------------------------------------
  Transition 2-3
  ------------------------------------------------ */
+
+#Transition2-3{
+   background-image: url(Assets/img_arriere_plan/01_fond.svg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100vh;
+   width: 100vw;
+   position: relative;
+}
+
+#Transition2-3 #TitreTransi2{
+   position: relative;
+   width: 54vw;
+   font-family: SuperSunday;
+   text-align: center;
+   margin: auto;
+   top: 30%;
+   font-size: 2vw;
+   z-index: 1;
+   color: var(--DarkGreen);
+}
 
  /*-----------------------------------------------
  Chapitre 3
@@ -261,7 +333,7 @@ footer h1:last-of-type{
    position: relative;
 }
 
-#Transition3-4 #TitreTransi4{
+#Transition3-4 #TitreTransi3{
    position: relative;
    width: 54vw;
    font-family: SuperSunday;
@@ -310,6 +382,36 @@ footer h1:last-of-type{
  Transition 4-5
  ------------------------------------------------ */
 
+ #Transition4-5{
+   background-image: url(Assets/img_arriere_plan/Noir.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100vh;
+   width: 100vw;
+   position: relative;
+}
+
+#Transition4-5 #TitreTransi4{
+   position: relative;
+   width: 54vw;
+   font-family: SuperSunday;
+   text-align: center;
+   margin: auto;
+   top: 30%;
+   font-size: 2vw;
+   z-index: 1;
+   color: var(--Ivory);
+}
+
+#Transition4-5 #Vent{
+   position: relative;
+   width: 25vw;
+   margin: auto;
+   top: 35%;
+   left: 37%;
+   z-index: 0;
+}
+
  /*-----------------------------------------------
  Chapitre 5
  ------------------------------------------------ */
@@ -351,6 +453,27 @@ footer h1:last-of-type{
  /*-----------------------------------------------
  Transition 5-6
  ------------------------------------------------ */
+
+ #Transition5-6{
+   background-image: url(Assets/img_arriere_plan/01_fond.svg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100vh;
+   width: 100vw;
+   position: relative;
+}
+
+#Transition5-6 #TitreTransi5{
+   position: relative;
+   width: 54vw;
+   font-family: SuperSunday;
+   text-align: center;
+   margin: auto;
+   top: 30%;
+   font-size: 2vw;
+   z-index: 1;
+   color: var(--DarkGreen);
+}
 
  /*-----------------------------------------------
  Chapitre 6

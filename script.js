@@ -67,6 +67,8 @@ gsap.from("#Lac", {
 
 /* --------------------------  Transition 1 - 2  ---------------------------*/
 
+
+
 /* --------------------------  Chapitre 2  ---------------------------*/
 
 gsap.to(".OiseauChap2", {
@@ -74,7 +76,7 @@ gsap.to(".OiseauChap2", {
     path:".PathOiseau",
     align: ".PathOiseau",
     autoRotate: true,
-    start: 0,
+    start: 1,
     end: 0,
     alignOrigin: [0.5,1],
   },
@@ -89,13 +91,15 @@ gsap.to(".OiseauChap2", {
 
 /* --------------------------  Transition 2 - 3  ---------------------------*/
 
+
+
 /* --------------------------  Chapitre 3  ---------------------------*/
 
 gsap.to(".OiseauChap3",{rotation: 360, repeat: -1, ease: "none"});
 
 /* --------------------------  Transition 3 - 4  ---------------------------*/
 
-gsap.to(".arbrestransi4", {
+gsap.to(".arbrestransi3", {
   x: "300%",
   ease: "none",
   duration: 5,
