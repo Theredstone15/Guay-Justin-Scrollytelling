@@ -6,7 +6,7 @@ gsap.set("#ligne1-2",{drawSVG:"0% 100%"});
 gsap.set("#ligne2-2",{drawSVG:"0% 100%"});
 gsap.set("#ligne3-2",{drawSVG:"0% 100%"});
 
-/* --------------------------  Page titre  ---------------------------*/
+/* --------------------------  Page titre (Complet) ---------------------------*/
 gsap.to(".ligne",{y:"60%", yoyo: true, repeat: -1, ease:"power1.inOut"});
 
 var animmenu = gsap.timeline({repeat: -1});
@@ -33,7 +33,7 @@ gsap.to(".arbrestransi0", {
     }
   })
 
-/* --------------------------  Chapitre 1  ---------------------------*/
+/* --------------------------  Chapitre 1 (Complet) ---------------------------*/
 
 gsap.from("#ArbreBas", {
   y: "100%",
@@ -70,7 +70,7 @@ gsap.from("#Lac", {
   }
 })
 
-/* --------------------------  Transition 1 - 2  ---------------------------*/
+/* --------------------------  Transition 1 - 2 (Complet) ---------------------------*/
 
 gsap.from("#ligne1-1", {
   drawSVG: "0% 0%",
@@ -103,7 +103,7 @@ gsap.from("#ligne3-1", {
   }
 })
 
-/* --------------------------  Chapitre 2  ---------------------------*/
+/* --------------------------  Chapitre 2 (Complet) ---------------------------*/
 
 gsap.to(".OiseauChap2", {
   motionPath: {
@@ -123,7 +123,7 @@ gsap.to(".OiseauChap2", {
   },
 });
 
-/* --------------------------  Transition 2 - 3  ---------------------------*/
+/* --------------------------  Transition 2 - 3 (Complet) ---------------------------*/
 
 gsap.to("#Nuagemorph1", {
   morphSVG: "#Oiseaumorph1",
@@ -136,7 +136,7 @@ gsap.to("#Nuagemorph1", {
   },
 });
 
-/* --------------------------  Chapitre 3  ---------------------------*/
+/* --------------------------  Chapitre 3 (Complet) ---------------------------*/
 let chap3 = document.querySelector(".Chap3");
 let hauteurChap3 = chap3.scrollHeight;
 
@@ -172,7 +172,7 @@ gsap.to("#Nuage",{
 
 gsap.to(".OiseauChap3",{rotation: 360, repeat: -1, ease: "none"});
 
-/* --------------------------  Transition 3 - 4  ---------------------------*/
+/* --------------------------  Transition 3 - 4 (Complet) ---------------------------*/
 
 gsap.to(".arbrestransi3", {
   x: "300%",
@@ -187,7 +187,7 @@ gsap.to(".arbrestransi3", {
   }
 })
 
-/* --------------------------  Chapitre 4  ---------------------------*/
+/* --------------------------  Chapitre 4 (Complet) ---------------------------*/
 
 gsap.to("#texteanime", {
   text: "Monsieur le loup m'a apercu",
@@ -201,7 +201,7 @@ gsap.to("#texteanime", {
   }
 });
 
-/* --------------------------  Transition 4 - 5  ---------------------------*/
+/* --------------------------  Transition 4 - 5 (Complet) ---------------------------*/
 
 gsap.from("#ligne1-2", {
   drawSVG: "0% 0%",
@@ -234,7 +234,7 @@ gsap.from("#ligne3-2", {
   }
 })
 
-/* --------------------------  Chapitre 5  ---------------------------*/
+/* --------------------------  Chapitre 5 (Complet) ---------------------------*/
 
 var animAmis = gsap.timeline({
   scrollTrigger:{
@@ -251,7 +251,7 @@ animAmis.from(".LapinChap5",{x:"750%", ease: "none"}, "<");
 animAmis.to(".CerfChap5",{x:"50%", y:"20%", ease: "power1.out"});
 animAmis.to(".LapinChap5",{x:"-50%", y:"20%", ease: "power1.out"}, "<");
 
-/* --------------------------  Transition 5 - 6  ---------------------------*/
+/* --------------------------  Transition 5 - 6 (Complet) ---------------------------*/
 
 gsap.to("#Nuagemorph2", {
   morphSVG: "#Oiseaumorph2",
