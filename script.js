@@ -1,10 +1,15 @@
-gsap.registerPlugin(MotionPathPlugin, TextPlugin, DrawSVGPlugin, MorphSVGPlugin);
+gsap.registerPlugin(MotionPathPlugin, TextPlugin);
+
+/*
+gsap.registerPlugin(DrawSVGPlugin, MorphSVGPlugin);
+
 gsap.set("#ligne1-1",{drawSVG:"0% 100%"});
 gsap.set("#ligne2-1",{drawSVG:"0% 100%"});
 gsap.set("#ligne3-1",{drawSVG:"0% 100%"});
 gsap.set("#ligne1-2",{drawSVG:"0% 100%"});
 gsap.set("#ligne2-2",{drawSVG:"0% 100%"});
 gsap.set("#ligne3-2",{drawSVG:"0% 100%"});
+*/
 
 /* --------------------------  Page titre  ---------------------------*/
 gsap.to(".ligne",{y:"60%", yoyo: true, repeat: -1, ease:"power1.inOut"});
