@@ -1,4 +1,4 @@
-gsap.registerPlugin(MotionPathPlugin, TextPlugin, DrawSVGPlugin);
+gsap.registerPlugin(MotionPathPlugin, TextPlugin, DrawSVGPlugin, MorphSVGPlugin);
 gsap.set("#ligne1-1",{drawSVG:"0% 100%"});
 gsap.set("#ligne2-1",{drawSVG:"0% 100%"});
 gsap.set("#ligne3-1",{drawSVG:"0% 100%"});
@@ -125,9 +125,50 @@ gsap.to(".OiseauChap2", {
 
 /* --------------------------  Transition 2 - 3  ---------------------------*/
 
-
+gsap.to("#Nuagemorph1", {
+  morphSVG: "#Oiseaumorph1",
+  scrollTrigger:{
+    pin: true,
+    scrub: true,
+    start: "top",
+    end: "bottom",
+    trigger: "#Transition2-3",
+  },
+});
 
 /* --------------------------  Chapitre 3  ---------------------------*/
+let chap3 = document.querySelector(".Chap3");
+let hauteurChap3 = chap3.scrollHeight;
+
+gsap.to("#Nuage",{
+  y:hauteurChap3 * -0.3 * -1,
+  ease: "none",
+  scrollTrigger:{
+    scrub: true,
+    start: "top",
+    end: "bottom",
+    trigger:"#Chap3",
+  }});
+
+  gsap.to("#Arbrebas",{
+    y:hauteurChap3 * -0.4 * -1,
+    ease: "none",
+    scrollTrigger:{
+      scrub: true,
+      start: "top",
+      end: "bottom",
+      trigger:"#Chap3",
+    }});
+
+    gsap.to(".OiseauChap3",{
+      y:hauteurChap3 * -0.9 * -1,
+      ease: "none",
+      scrollTrigger:{
+        scrub: true,
+        start: "top",
+        end: "bottom",
+        trigger:"#Chap3",
+      }});
 
 gsap.to(".OiseauChap3",{rotation: 360, repeat: -1, ease: "none"});
 
@@ -211,6 +252,17 @@ animAmis.to(".CerfChap5",{x:"50%", y:"20%", ease: "power1.out"});
 animAmis.to(".LapinChap5",{x:"-50%", y:"20%", ease: "power1.out"}, "<");
 
 /* --------------------------  Transition 5 - 6  ---------------------------*/
+
+gsap.to("#Nuagemorph2", {
+  morphSVG: "#Oiseaumorph2",
+  scrollTrigger:{
+    pin: true,
+    scrub: true,
+    start: "top",
+    end: "bottom",
+    trigger: "#Transition5-6",
+  },
+});
 
 /* --------------------------  Chapitre 6 (Complet) ---------------------------*/
 

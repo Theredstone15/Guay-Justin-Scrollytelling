@@ -1,15 +1,15 @@
-@font-face{
-font-family: Bubbly;
-src: url(Assets/fonts/Bubbly\ Font.ttf);
+@font-face {
+   font-family: Bubbly;
+   src: url(Assets/fonts/Bubbly\ Font.ttf);
 }
 
 @font-face {
-    font-family: SuperSunday;
-    src: url(Assets/fonts/Super\ Sunday.ttf);
+   font-family: SuperSunday;
+   src: url(Assets/fonts/Super\ Sunday.ttf);
 }
 
-ul.technique-gsap{
-   background: rgba(0,0,0,0.3);
+ul.technique-gsap {
+   background: rgba(0, 0, 0, 0.3);
    color: white;
    font-size: 10px;
    font-family: monospace;
@@ -25,7 +25,7 @@ ul.technique-gsap{
    left: 0;
 }
 
-ul.technique-gsap li{
+ul.technique-gsap li {
    margin: 5px 0;
 }
 
@@ -33,92 +33,92 @@ ul.technique-gsap li{
  Styles Généraux
  ------------------------------------------------ */
 
-*{
-    margin: 0;
-    padding: 0;
+* {
+   margin: 0;
+   padding: 0;
 }
 
-body{
-    overflow-x: hidden;
-    margin: 0;
-    --DarkGreen: #36453b;
-    --DimGray: #596869;
-    --Ebony: #515751;
-    --Ivory: #F5F9E9;
-    --Sage: #C2C1A5;
+body {
+   overflow-x: hidden;
+   margin: 0;
+   --DarkGreen: #36453b;
+   --DimGray: #596869;
+   --Ebony: #515751;
+   --Ivory: #F5F9E9;
+   --Sage: #C2C1A5;
 }
 
-header{
-    background-image: url(Assets/img_arriere_plan/header.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100vw;
-    height: 100vh;
+header {
+   background-image: url(Assets/img_arriere_plan/header.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 100vw;
+   height: 100vh;
 }
 
-header h1{
-    display: block;
-    text-align: center;
-    width: 40vw;
-    margin: auto;
-    padding-bottom: 20px;
-    top: 40%;
-    position: relative;
-    font-family: Bubbly;
-    font-size: 4vw;
-    color: var(--Sage);
+header h1 {
+   display: block;
+   text-align: center;
+   width: 40vw;
+   margin: auto;
+   padding-bottom: 20px;
+   top: 40%;
+   position: relative;
+   font-family: Bubbly;
+   font-size: 4vw;
+   color: var(--Sage);
 }
 
-header h2{
-    text-align: center;
-    width: 40vw;
-    margin: auto;
-    top: 40%;
-    position: relative;
-    font-family: Bubbly;
-    font-size: 2vw;
-    color: var(--Sage);
+header h2 {
+   text-align: center;
+   width: 40vw;
+   margin: auto;
+   top: 40%;
+   position: relative;
+   font-family: Bubbly;
+   font-size: 2vw;
+   color: var(--Sage);
 }
 
-header svg{
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    top: 63%;
-    left: 46%;
+header svg {
+   position: relative;
+   margin-left: auto;
+   margin-right: auto;
+   top: 63%;
+   left: 46%;
 }
 
-footer{
-    width: 100vw;
-    height: 10vh;
-    background-color: var(--DimGray)
+footer {
+   width: 100vw;
+   height: 10vh;
+   background-color: var(--DimGray)
 }
 
-footer h1:first-of-type{
-    position: absolute;
-    color: var(--Ivory);
-    width: 42vw;
-    font-size: 20px;
-    left: 0%;
-    padding: 15px;
-    font-family: Bubbly;
+footer h1:first-of-type {
+   position: absolute;
+   color: var(--Ivory);
+   width: 42vw;
+   font-size: 20px;
+   left: 0%;
+   padding: 15px;
+   font-family: Bubbly;
 }
 
-footer h1:last-of-type{
-    position: absolute;
-    color: var(--Ivory);
-    width: 42vw;
-    font-size: 20px;
-    text-align: right;
-    right: 0%;
-    padding: 15px;
-    font-family: Bubbly;
+footer h1:last-of-type {
+   position: absolute;
+   color: var(--Ivory);
+   width: 42vw;
+   font-size: 20px;
+   text-align: right;
+   right: 0%;
+   padding: 15px;
+   font-family: Bubbly;
 }
 
 /*-----------------------------------------------
  Transition 0-1
  ------------------------------------------------ */
-#Transition0-1{
+#Transition0-1 {
    background-image: url(Assets/img_arriere_plan/01_fond.svg);
    background-repeat: no-repeat;
    background-size: cover;
@@ -127,7 +127,7 @@ footer h1:last-of-type{
    position: relative;
 }
 
-#Transition0-1 #TitreTransi0{
+#Transition0-1 #TitreTransi0 {
    position: relative;
    width: 54vw;
    font-family: SuperSunday;
@@ -139,7 +139,7 @@ footer h1:last-of-type{
    color: var(--DarkGreen);
 }
 
-#Transition0-1 #troisarbres0{
+#Transition0-1 #troisarbres0 {
    position: absolute;
    top: 0%;
    z-index: 1;
@@ -152,55 +152,55 @@ footer h1:last-of-type{
 /*-----------------------------------------------
  Chapitre 1
  ------------------------------------------------ */
-#Chap1{
-    background-image: url(Assets/img_arriere_plan/01_fond.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    width: 100vw;
-    position: relative;
+#Chap1 {
+   background-image: url(Assets/img_arriere_plan/01_fond.svg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100vh;
+   width: 100vw;
+   position: relative;
 }
 
-#Chap1 h2{
-    position: relative;
-    width: 54vw;
-    font-family: SuperSunday;
-    text-align: center;
-    margin: auto;
-    top: 20%;
-    font-size: 2vw;
-    z-index: 1;
-    color: var(--DarkGreen);
+#Chap1 h2 {
+   position: relative;
+   width: 54vw;
+   font-family: SuperSunday;
+   text-align: center;
+   margin: auto;
+   top: 20%;
+   font-size: 2vw;
+   z-index: 1;
+   color: var(--DarkGreen);
 }
 
-#Chap1 #ArbreBas{
-    position: absolute;
-    width: 100vw;
-    bottom: 0%;
-    z-index: 2;
+#Chap1 #ArbreBas {
+   position: absolute;
+   width: 100vw;
+   bottom: 0%;
+   z-index: 2;
 }
 
-#Chap1 #ArbreHaut{
-    position: absolute;
-    top: 32%;
-    z-index: 1;
-    width: 110vw;
+#Chap1 #ArbreHaut {
+   position: absolute;
+   top: 32%;
+   z-index: 1;
+   width: 110vw;
 }
 
-#Chap1 #Lac{
-    position: absolute;
-    width: 100vw;
-    bottom: 10%;
-    right: -10%;
-    height: 20vh;
-    z-index: 0;
+#Chap1 #Lac {
+   position: absolute;
+   width: 100vw;
+   bottom: 10%;
+   right: -10%;
+   height: 20vh;
+   z-index: 0;
 }
 
 /*-----------------------------------------------
  Transition 1-2
  ------------------------------------------------ */
 
-#Transition1-2{
+#Transition1-2 {
    background-image: url(Assets/img_arriere_plan/Noir.png);
    background-repeat: no-repeat;
    background-size: cover;
@@ -209,7 +209,7 @@ footer h1:last-of-type{
    position: relative;
 }
 
-#Transition1-2 #TitreTransi1{
+#Transition1-2 #TitreTransi1 {
    position: relative;
    width: 54vw;
    font-family: SuperSunday;
@@ -221,7 +221,7 @@ footer h1:last-of-type{
    color: var(--Ivory);
 }
 
-#Transition1-2 #Vent{
+#Transition1-2 #Vent {
    position: relative;
    width: 25vw;
    margin: auto;
@@ -230,38 +230,38 @@ footer h1:last-of-type{
    z-index: 0;
 }
 
- /*-----------------------------------------------
+/*-----------------------------------------------
  Chapitre 2
  ------------------------------------------------ */
 
-#Chap2{
-    background-image: url(Assets/img_arriere_plan/02_fond.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 105vh;
-    width: 100vw;
-    position: relative;
+#Chap2 {
+   background-image: url(Assets/img_arriere_plan/02_fond.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 105vh;
+   width: 100vw;
+   position: relative;
 }
 
-#Chap2 h2{
-    position: relative;
-    width: 54vw;
-    font-family: SuperSunday;
-    text-align: center;
-    margin: auto;
-    top: 20%;
-    font-size: 2vw;
-    z-index: 1;
+#Chap2 h2 {
+   position: relative;
+   width: 54vw;
+   font-family: SuperSunday;
+   text-align: center;
+   margin: auto;
+   top: 20%;
+   font-size: 2vw;
+   z-index: 1;
 }
 
-#Chap2 #Oiseau{
+#Chap2 #Oiseau {
    height: 10vh;
    position: absolute;
    top: 40%;
    left: 70%;
 }
 
-.PathOiseau{
+.PathOiseau {
    opacity: 0;
 }
 
@@ -269,7 +269,7 @@ footer h1:last-of-type{
  Transition 2-3
  ------------------------------------------------ */
 
-#Transition2-3{
+#Transition2-3 {
    background-image: url(Assets/img_arriere_plan/01_fond.svg);
    background-repeat: no-repeat;
    background-size: cover;
@@ -278,7 +278,7 @@ footer h1:last-of-type{
    position: relative;
 }
 
-#Transition2-3 #TitreTransi2{
+#Transition2-3 #TitreTransi2 {
    position: relative;
    width: 54vw;
    font-family: SuperSunday;
@@ -290,41 +290,70 @@ footer h1:last-of-type{
    color: var(--DarkGreen);
 }
 
- /*-----------------------------------------------
+#Oiseaumorph1 {
+   visibility: hidden;
+}
+
+#Transition2-3 #Morphing1 {
+   position: relative;
+   width: 25vw;
+   margin: auto;
+   top: 35%;
+   left: 37%;
+}
+
+/*-----------------------------------------------
  Chapitre 3
  ------------------------------------------------ */
 
- #Chap3{
-    background-image: url(Assets/img_arriere_plan/03_fond.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 240vh;
-    width: 130vw;
-    position: relative;
- }
+#Chap3 {
+   background-image: url(Assets/img_arriere_plan/03_fond.svg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 240vh;
+   width: 130vw;
+   position: relative;
+}
 
- #Chap3 h2{
-    position: absolute;
-    width: 54vw;
-    font-family: SuperSunday;
-    text-align: center;
-    left: 17%;
-    top: 10%;
-    font-size: 2vw;
-    z-index: 1;
- }
+#Chap3 h2 {
+   position: absolute;
+   width: 54vw;
+   font-family: SuperSunday;
+   text-align: center;
+   left: 17%;
+   top: 10%;
+   font-size: 2vw;
+   z-index: 1;
+}
 
- #Chap3 #Oiseau{
-    position: absolute;
-    height: 20vh;
-    left: 34%;
-    top: 30%;
- }
+#Chap3 #Oiseau {
+   position: absolute;
+   height: 20vh;
+   left: 34%;
+   top: 20%;
+   z-index: 0;
+}
 
- /*-----------------------------------------------
+#Chap3 #Nuage {
+   position: absolute;
+   height: 90vh;
+   left: 0%;
+   top: 10%;
+}
+
+#Chap3 #Arbrebas {
+   position: absolute;
+   height: 110vh;
+   width: 140vw;
+   right: 10%;
+   bottom: 20%;
+   z-index: 0;
+}
+
+/*-----------------------------------------------
  Transition 3-4
  ------------------------------------------------ */
- #Transition3-4{
+#Transition3-4 {
    background-image: url(Assets/img_arriere_plan/01_fond.svg);
    background-repeat: no-repeat;
    background-size: cover;
@@ -333,7 +362,7 @@ footer h1:last-of-type{
    position: relative;
 }
 
-#Transition3-4 #TitreTransi3{
+#Transition3-4 #TitreTransi3 {
    position: relative;
    width: 54vw;
    font-family: SuperSunday;
@@ -345,7 +374,7 @@ footer h1:last-of-type{
    color: var(--DarkGreen);
 }
 
-#Transition3-4 #troisarbres4{
+#Transition3-4 #troisarbres4 {
    position: absolute;
    top: 0%;
    z-index: 1;
@@ -353,36 +382,37 @@ footer h1:last-of-type{
    width: 80vw;
    left: -80%;
 }
- /*-----------------------------------------------
+
+/*-----------------------------------------------
  Chapitre 4
  ------------------------------------------------ */
 
- #Chap4{
-    background-image: url(Assets/img_arriere_plan/04_scene.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 105vh;
-    width: 100vw;
-    position: relative;
-    color: var(--Ivory);
- }
+#Chap4 {
+   background-image: url(Assets/img_arriere_plan/04_scene.svg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 105vh;
+   width: 100vw;
+   position: relative;
+   color: var(--Ivory);
+}
 
- #Chap4 h2{
-    position: relative;
-    width: 54vw;
-    font-family: SuperSunday;
-    text-align: center;
-    margin: auto;
-    top: 20%;
-    font-size: 2vw;
-    z-index: 1;
- }
+#Chap4 h2 {
+   position: relative;
+   width: 54vw;
+   font-family: SuperSunday;
+   text-align: center;
+   margin: auto;
+   top: 20%;
+   font-size: 2vw;
+   z-index: 1;
+}
 
- /*-----------------------------------------------
+/*-----------------------------------------------
  Transition 4-5
  ------------------------------------------------ */
 
- #Transition4-5{
+#Transition4-5 {
    background-image: url(Assets/img_arriere_plan/Noir.png);
    background-repeat: no-repeat;
    background-size: cover;
@@ -391,7 +421,7 @@ footer h1:last-of-type{
    position: relative;
 }
 
-#Transition4-5 #TitreTransi4{
+#Transition4-5 #TitreTransi4 {
    position: relative;
    width: 54vw;
    font-family: SuperSunday;
@@ -403,7 +433,7 @@ footer h1:last-of-type{
    color: var(--Ivory);
 }
 
-#Transition4-5 #Vent{
+#Transition4-5 #Vent {
    position: relative;
    width: 25vw;
    margin: auto;
@@ -412,49 +442,49 @@ footer h1:last-of-type{
    z-index: 0;
 }
 
- /*-----------------------------------------------
+/*-----------------------------------------------
  Chapitre 5
  ------------------------------------------------ */
- #Chap5{
-    background-image: url(Assets/img_arriere_plan/05_fond.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 105vh;
-    width: 100vw;
-    position: relative;
-    color: var(--Ivory);
- }
+#Chap5 {
+   background-image: url(Assets/img_arriere_plan/05_fond.svg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 105vh;
+   width: 100vw;
+   position: relative;
+   color: var(--Ivory);
+}
 
- #Chap5 h2{
-    position: relative;
-    width: 54vw;
-    font-family: SuperSunday;
-    text-align: center;
-    margin: auto;
-    top: 20%;
-    font-size: 2vw;
- }
-  
- #Chap5 #Cerf{
-    position: absolute;
-    height: 40vh;
-    bottom: 3%;
-    left: 20%;
- }
+#Chap5 h2 {
+   position: relative;
+   width: 54vw;
+   font-family: SuperSunday;
+   text-align: center;
+   margin: auto;
+   top: 20%;
+   font-size: 2vw;
+}
 
- #Chap5 #Lapin{
-    position: absolute;
-    height: 20vh;
-    bottom: 3%;
-    right: 30%;
-    z-index: 1;
- }
+#Chap5 #Cerf {
+   position: absolute;
+   height: 40vh;
+   bottom: 3%;
+   left: 20%;
+}
 
- /*-----------------------------------------------
+#Chap5 #Lapin {
+   position: absolute;
+   height: 20vh;
+   bottom: 3%;
+   right: 30%;
+   z-index: 1;
+}
+
+/*-----------------------------------------------
  Transition 5-6
  ------------------------------------------------ */
 
- #Transition5-6{
+#Transition5-6 {
    background-image: url(Assets/img_arriere_plan/01_fond.svg);
    background-repeat: no-repeat;
    background-size: cover;
@@ -463,7 +493,7 @@ footer h1:last-of-type{
    position: relative;
 }
 
-#Transition5-6 #TitreTransi5{
+#Transition5-6 #TitreTransi5 {
    position: relative;
    width: 54vw;
    font-family: SuperSunday;
@@ -475,130 +505,143 @@ footer h1:last-of-type{
    color: var(--DarkGreen);
 }
 
- /*-----------------------------------------------
+#Oiseaumorph2 {
+   visibility: hidden;
+}
+
+#Transition5-6 #Morphing2 {
+   position: relative;
+   width: 25vw;
+   margin: auto;
+   top: 35%;
+   left: 37%;
+}
+
+
+/*-----------------------------------------------
  Chapitre 6
  ------------------------------------------------ */
 
- #Chap6{
-    background-image: url(Assets/img_arriere_plan/06_fond.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 105vh;
-    width: 100vw;
-    position: relative;
- }
+#Chap6 {
+   background-image: url(Assets/img_arriere_plan/06_fond.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 105vh;
+   width: 100vw;
+   position: relative;
+}
 
- #Chap6 h2{
-    position: relative;
-    width: 54vw;
-    font-family: SuperSunday;
-    text-align: center;
-    margin: auto;
-    top: 20%;
-    font-size: 2vw;
-    z-index: 1;
- }
+#Chap6 h2 {
+   position: relative;
+   width: 54vw;
+   font-family: SuperSunday;
+   text-align: center;
+   margin: auto;
+   top: 20%;
+   font-size: 2vw;
+   z-index: 1;
+}
 
- #Chap6 #Loup{
-    position: absolute;
-    height: 40vh;
-    bottom: 3%;
-    left: 40%;
-    z-index: 2;
- }
+#Chap6 #Loup {
+   position: absolute;
+   height: 40vh;
+   bottom: 3%;
+   left: 40%;
+   z-index: 2;
+}
 
- #Chap6 #Cerf{
-    position: absolute;
-    height: 50vh;
-    bottom: 1%;
-    left: 20%;
-    z-index: 2;
- }
+#Chap6 #Cerf {
+   position: absolute;
+   height: 50vh;
+   bottom: 1%;
+   left: 20%;
+   z-index: 2;
+}
 
- #Chap6 #Lapin{
-    position: absolute;
-    height: 30vh;
-    bottom: 3%;
-    left: 60%;
-    z-index: 2;
- }
+#Chap6 #Lapin {
+   position: absolute;
+   height: 30vh;
+   bottom: 3%;
+   left: 60%;
+   z-index: 2;
+}
 
- #Chap6 #Nuage1{
-    position: absolute;
-    height: 15vh;
-    right: -20%;
-    top: 7%;
-    z-index: 0;
- }
+#Chap6 #Nuage1 {
+   position: absolute;
+   height: 15vh;
+   right: -20%;
+   top: 7%;
+   z-index: 0;
+}
 
- #Chap6 #Nuage2{
-    position: absolute;
-    height: 15vh;
-    top: 15%;
-    right: -20%;
-    z-index: 0;
- }
+#Chap6 #Nuage2 {
+   position: absolute;
+   height: 15vh;
+   top: 15%;
+   right: -20%;
+   z-index: 0;
+}
 
- #Chap6 #Nuage3{
-    position: absolute;
-    height: 15vh;
-    top: 25%;
-    right: -20%;
-    z-index: 0;
- }
+#Chap6 #Nuage3 {
+   position: absolute;
+   height: 15vh;
+   top: 25%;
+   right: -20%;
+   z-index: 0;
+}
 
- #Chap6 #Nuage4{
-    position: absolute;
-    height: 15vh;
-    top: 8%;
-    right: -20%;
-    z-index: 0;
- }
+#Chap6 #Nuage4 {
+   position: absolute;
+   height: 15vh;
+   top: 8%;
+   right: -20%;
+   z-index: 0;
+}
 
- #Chap6 #Nuage5{
-    position: absolute;
-    height: 15vh;
-    top: 23%;
-    right:-20%;
-    z-index: 0;
- }
+#Chap6 #Nuage5 {
+   position: absolute;
+   height: 15vh;
+   top: 23%;
+   right: -20%;
+   z-index: 0;
+}
 
- #Chap6 #Arbre1{
-    position: absolute;
-    height: 40vh;
-    top: 30%;
-    right: -20%;
-    z-index: 1;
- }
+#Chap6 #Arbre1 {
+   position: absolute;
+   height: 40vh;
+   top: 30%;
+   right: -20%;
+   z-index: 1;
+}
 
- #Chap6 #Arbre2{
-    position: absolute;
-    height: 40vh;
-    top: 45%;
-    right: -20%;
-    z-index: 1;
- }
+#Chap6 #Arbre2 {
+   position: absolute;
+   height: 40vh;
+   top: 45%;
+   right: -20%;
+   z-index: 1;
+}
 
- #Chap6 #Arbre3{
-    position: absolute;
-    height: 40vh;
-    top: 32%;
-    right: -20%;
-    z-index: 1;
- }
+#Chap6 #Arbre3 {
+   position: absolute;
+   height: 40vh;
+   top: 32%;
+   right: -20%;
+   z-index: 1;
+}
 
- #Chap6 #Arbre4{
-    position: absolute;
-    height: 40vh;
-    top: 41%;
-    right: -20%;
-    z-index: 1;
- }
+#Chap6 #Arbre4 {
+   position: absolute;
+   height: 40vh;
+   top: 41%;
+   right: -20%;
+   z-index: 1;
+}
 
- #Chap6 #Arbre5{
-    position: absolute;
-    height: 40vh;
-    top: 35%;
-    right: -20%;
-    z-index: 1;
- }
+#Chap6 #Arbre5 {
+   position: absolute;
+   height: 40vh;
+   top: 35%;
+   right: -20%;
+   z-index: 1;
+}
